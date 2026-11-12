@@ -1,0 +1,6 @@
+# Image-to-PDF Dependencies
+# Install with: python -m pip install -r requirements.txt
+
+reportlab>=4.0.0
+pillow>=10.0.0
+pymupdf>=1.24.0

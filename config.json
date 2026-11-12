@@ -1,0 +1,58 @@
+{
+  "project_name": "AI Academic Study Guide & Smart PDF Generator",
+  "version": "2.0.0",
+  "document": {
+    "title": "Intersection of Cultures, Multiculturalism & Moroccan Immigrants in Belgium",
+    "subtitle": "An Empirical & Anthropological Analysis of Acculturation, Schooling, and the Emotional Repertoires of Shame and Guilt",
+    "author": "Dr. Philip Hermans",
+    "affiliation": "Department of Social & Cultural Anthropology, University of Leuven / University of Groningen",
+    "journal": "International Journal of Educational Research, Vol. 31 (1999), pp. 303–316",
+    "course_category": "Advanced Reading in Global Culture & Intercultural Education"
+  },
+  "paths": {
+    "input_dir": "input",
+    "output_dir": "output",
+    "output_pdf": "output/Complete_University_Study_Guide.pdf",
+    "extracted_content_md": "output/Extracted_Content.md",
+    "explained_notes_md": "output/Explained_Study_Notes.md",
+    "questions_answers_md": "output/Questions_And_Answers.md"
+  },
+  "styling": {
+    "page_size": "A4",
+    "margins": {
+      "left": 42.0,
+      "right": 42.0,
+      "top": 48.0,
+      "bottom": 48.0
+    },
+    "colors": {
+      "primary_navy": "#1E3A8A",
+      "accent_gold": "#D97706",
+      "text_charcoal": "#0F172A",
+      "text_body": "#1E293B",
+      "text_muted": "#64748B",
+      "explanation_blue_bg": "#F0F9FF",
+      "explanation_blue_border": "#0284C7",
+      "explanation_blue_text": "#0369A1",
+      "answer_green_bg": "#F0FDF4",
+      "answer_green_border": "#16A34A",
+      "answer_green_text": "#15803D",
+      "alert_gold_bg": "#FEF3C7",
+      "alert_gold_border": "#D97706",
+      "summary_slate_bg": "#F8FAFC",
+      "summary_slate_border": "#64748B"
+    },
+    "typography": {
+      "font_title": "Helvetica-Bold",
+      "font_body": "Helvetica",
+      "font_italic": "Helvetica-Oblique",
+      "base_font_size": 9.2,
+      "base_leading": 13.5
+    }
+  },
+  "quality_control": {
+    "validate_with_pymupdf": true,
+    "detect_unreadable_files": true,
+    "min_chars_per_page": 200
+  }
+}

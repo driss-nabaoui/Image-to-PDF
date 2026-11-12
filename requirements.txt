@@ -1,0 +1,7 @@
+# AI Academic Study Guide & Smart PDF Generator Dependencies
+# Install via: python -m pip install -r requirements.txt
+
+reportlab>=4.0.0
+pillow>=10.0.0
+pymupdf>=1.24.0
+rapidocr-onnxruntime>=1.2.0
